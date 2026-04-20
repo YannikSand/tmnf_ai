@@ -1,3 +1,42 @@
+# TMNF AI — Teaching a Car to Drive (With Mixed Results)
+
+Welcome to **TMNF AI**, a project exploring whether a machine can learn to drive in *TrackMania Nations Forever* without immediately steering into the nearest wall.
+
+**Results so far:** inconsistent, but promising.
+
+---
+
+## Overview
+
+This project implements an AI agent for *TrackMania Nations Forever (TMNF)* using machine learning techniques. The goal is to train a model that can navigate tracks, improve lap times, and gradually make fewer catastrophic decisions.
+
+It’s a mix of experimentation, reinforcement learning, and watching a program slowly figure out that walls are not shortcuts.
+
+---
+
+## How It Works
+
+The system follows a standard reinforcement learning loop:
+
+1. Observe the environment (game state, visuals, telemetry, etc.)
+2. Take an action (steering, acceleration, braking)
+3. Receive feedback (reward or penalty)
+4. Repeat many times until something resembling skill emerges
+
+Early behavior may look less like racing and more like interpretive chaos. This is expected.
+
+---
+
+## Features
+
+- AI agent capable of interacting with TMNF  
+- Training pipeline for iterative improvement  
+- Modular structure for experimentation  
+- Model saving and evaluation support  
+
+---
+
+## Project Structure
 TMNF AI — Teaching a Car to Drive (With Mixed Results)
 
 Welcome to TMNF AI, a project exploring whether a machine can learn to drive in TrackMania Nations Forever without immediately steering into the nearest wall.
