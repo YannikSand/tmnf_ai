@@ -75,7 +75,6 @@ class LinuxTMNFEnv(gym.Env):
         obs, speed, red_count, green_count, wall_area = self._get_obs_metrics()
 
         # --- THE FIX: FORCED GAS ---
-        # Clear ONLY Left/Right so we don't clear the Gas (W)
         ui.write(e.EV_KEY, config.KEYS["LEFT"], 0)
         ui.write(e.EV_KEY, config.KEYS["RIGHT"], 0)
         
